@@ -1,0 +1,134 @@
+body {
+    /* width: 90%; */
+    background-color: whitesmoke;
+    /* margin: auto; */
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* text-align: center; */
+  }
+  
+  .movie-output {
+    display: flex;
+    margin-top: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  }
+  
+  .title-poster {
+    flex: 35%;
+  }
+  
+  .output-text {
+    flex: 65%;
+    margin-top: 55px;
+    margin-bottom: 60px;
+  }
+  
+  .other-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;  
+  }
+  
+  .subtext {
+    width: 150px;
+    margin-bottom: 0px;
+    margin-right: 80px;
+  
+  }
+  #heading {
+    background-color: #131313;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .fa-solid {color: blue;
+    margin-left: 5px;
+  }
+  
+  .fa-magnifying-glass {
+    color: white;
+  }
+  .red {color:red}
+  
+  .movie-input {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  #movie {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  
+  }
+  
+  #search-button {
+    height: 35px;
+    border: none;
+    background-color: #131313;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  
+  }
+  
+  .fa-photo-film, .fa-calendar-days, .fa-circle-play, .fa-person-harassing, .fa-panorama, .fa-film, .fa-star-half-stroke {
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .fa-tv {
+    color: black;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 25px;
+  
+  }
+  
+  .sub {
+    margin-bottom: 0px;
+    flex: 100px;
+  }
+  
+  .plot, .released, .rated, .released, .rating, .genre, .actors, .type, .box-office, .rotten {
+    margin-top: 10px; margin-bottom: 0px;
+  }
+  
+  footer {
+    background-color: #131313;
+    color: grey;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  @media screen and (max-width:1180px) {
+    .movie-output {
+      flex-direction: column;
+    }
+    .title-poster {
+      margin: auto;
+    }
+    .other-text {
+      align-content: space-around;
+    }
+    .subtext {
+      margin-right: 35px;
+    }
+    .output-text {
+      margin-top: 10px;
+    }
+    .sub-plot {
+      text-align: center;
+    }
+  }

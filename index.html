@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h2 id="heading">Find Any <span class="red">Movie </span><i class="fa-solid fa-clapperboard"></i></h2><br>
+    </header>
+        <div class="movie-input">
+            <!-- <label for="movie">Enter a title</label> -->
+            <input type="text" id="movie" placeholder="Enter a Title">
+            <button id="search-button">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="movie-output">
+            <div class="title-poster">
+                <h1 class="title"></h1>
+                <img class="poster" alt="movie-poster"></img><br><br>
+            </div>
+            <div class="output-text">
+                <h4 class="sub-plot"><i class="fa-solid fa-photo-film"></i>Plot</h4>
+                <p class="plot"></p><br>
+                <hr>
+                <div class="other-text">
+                    <div class="subtext">
+                        <h4 class="sub"><i class="fa-regular fa-calendar-days"></i>Released</h4>
+                        <p class="released"></p>
+                    </div>
+                    <div class="subtext">
+                        <h4 class="sub"><i class="fa-solid fa-tv"></i>Rated</h4>
+                        <p class="rating"></p>
+                    </div>
+                    <div class="subtext">
+                        <h4 class="sub"><i class="fa-solid fa-circle-play"></i>Genre</h4>
+                        <p class="genre"></p>
+                    </div>
+                    <div class="subtext">
+                        <h4 class="sub"><i class="fa-solid fa-person-harassing"></i>Actors</h4>
+                        <p class="actors"></p>
+                    </div>
+                    <div class="subtext">
+                        <h4 class="sub"><i class="fa-solid fa-panorama"></i>Type</h4>
+                        <p class="type"></p>
+                    </div>
+                    <div class="subtext">
+                        <h4 class="sub"><i class="fa-solid fa-film"></i>Box-Office</h4>
+                        <p class="box-office"></p>
+                    </div>
+                    <div class="subtext">
+                        <h4 class="sub"><i class="fa-solid fa-star-half-stroke"></i>Rotten-Tomatoes Score</h4>
+                        <p class="rotten"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            &copy 2023 Joseph Ononaye
+        </footer>
+
+    <script src="https://kit.fontawesome.com/44c4054922.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
