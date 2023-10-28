@@ -132,3 +132,20 @@ body {
       text-align: center;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    #search-button {
+      margin-top: 10px;
+      
+    }
+    .poster {
+      max-width: 100%;
+    }
+    .title {
+      text-align: center;
+    }
+    .subtext {
+      margin-right: 0px;
+      width: 100%;
+    }
+  }
