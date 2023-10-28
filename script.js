@@ -34,7 +34,7 @@ searchButton.on("click", play)
 
 function def() {
     var movie = "Robin Hood"
-    var queryURL = "http://www.omdbapi.com/?t=" + movie + "&plot=short&apikey=" + API_KEY;       
+    var queryURL = "https://www.omdbapi.com/?t=" + movie + "&plot=short&apikey=" + API_KEY;       
         
     fetch(queryURL)
         .then(function(response){
@@ -61,7 +61,7 @@ def()
 
 function play() {
 var movie = $("#movie").val().trim();
-    var queryURL = "http://www.omdbapi.com/?t=" + movie + "&plot=short&apikey=" + API_KEY;
+    var queryURL = "https://www.omdbapi.com/?t=" + movie + "&plot=short&apikey=" + API_KEY;
     // console.log(movie);
     console.log(queryURL);
     fetch(queryURL)
