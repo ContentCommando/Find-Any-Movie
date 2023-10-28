@@ -97,8 +97,8 @@ var movie = $("#movie").val().trim();
         $(".box-office").empty()
         $(".box-office").text(data.BoxOffice);
         $(".rotten").empty()
-        $(".rotten").text(data.Ratings[1].Value);
         $("#movie").val("");
+        $(".rotten").text(data.Ratings[1].Value);
 
 
     })
