@@ -147,5 +147,21 @@ body {
     .subtext {
       margin-right: 0px;
       width: 100%;
+      
+    }
+    #special-one {
+      width: 50%;
+    }
+
+    #special-two {
+      width: 50%;
+    }
+
+    #special-three {
+      width: 50%;
+    }
+
+    #special-four {
+      width: 50%;
     }
   }
